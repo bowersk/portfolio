@@ -1,0 +1,158 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>218A</title>
+  <meta name="description" content="THOMSOON - Single page with minimalist two column description and one photo. Download free now with file Photoshop! ">
+  <meta name="keywords" content="thomsoon, simplicity, theme, html5, single page, boxed portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="thomsoon.com">
+  <link rel="icon" type="image/png" href="img/icon.png" />
+
+<!--Style-->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class="preloader" id="preloader">
+    <div class="item">
+      <div class="spinner">
+      </div>
+    </div>
+</div>
+
+<div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+        </div>
+
+    <ul class="menu-fullscreen">
+      <li><a class="ajax-link" href="index.html">Portfolio</a></li>
+      <li><a class="ajax-link" href="about.html">About me</a></li>
+    </ul>
+
+</div>
+
+
+  <!--Header-->
+  <header id="fullscreen">
+    
+      <div class="logo" id="full"><a class="ajax-link" href="index.html">Kenji Bowers</a></div>
+      
+        <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+        </div>
+        
+  </header>
+
+  <div class="clear"></div>
+
+  <!--Content-->
+
+  <div class="content" id="ajax-content">
+
+
+        <div class="text-intro">
+
+          <h1>Electromagnetic Arcade Game</h1>
+          
+                    
+	          <div class="one-column">
+	            <p>Keypad controlled game for ME 218A</p>
+	          </div>
+
+
+		          <div class="two-column">
+		            <p>For ME 218A I created a quadruple slider-crank mechanism, powered by a continuous rotation servo, which bounces ball bearings into four electromagnet’s zones of reach. The keys on a numpad acutate the electromagnets and a potentiometer controls the direction and speed of the slider crank mechanism. When you successfully stick a ball bearing to a magnet, an IR LED sensor tells the TIVA microcontroller to turn on the indication LED corresponding to the magnet number. My next step was to make a game out of this whole thing, e.g. the microcontroller would control the slider-crank irradically and you would have to use the potentiometer and numpad to stick all 4 ball bearings to the magnets within 30 seconds, but I unfortunately ran out of time. This was a very difficult project because I didn't have a group to work with but it was a great learning experience. Completed fall of 2015.</p>
+		          </div>   
+                 				  
+                <div class="clear"></div>   				  
+                 				        
+				        <br/><br/><br/><br/>
+				        
+				        <img src="img/portfolio/218A/fullcropped.jpg" width="100%"><br/><br/><br/><br/>
+				        <div class="videoWrapper"><iframe width="100%" height="650" src="https://www.youtube.com/embed/RTjnFhr_ngw" frameborder="0" allowfullscreen></iframe></div>
+
+				        <img src="img/portfolio/218A/sideAcropped.jpg" width="100%"><br/><br/><br/><br/>
+				        <img src="img/portfolio/218A/sideBcropped.jpg" width="100%"><br/><br/><br/><br/>
+				        <img src="img/portfolio/218A/IMG_0101.JPG" width="100%"><p1>Here is my homemade electromagnet</p1><br/><br/>
+                <div class="videoWrapperCap"><iframe width="100%" height="650" src="https://www.youtube.com/embed/nBJ767ZTaiI" frameborder="0" allowfullscreen></iframe></div><p1>In order to produce the magnetic force required to pick up this steel plate without burning up the magnet wire or melting the PLA casing I wired up four 9V batteries in series to make a 36V power supply.</p1><br/><br/>
+				        <img src="img/portfolio/218A/electromagnetcropped" width="100%">
+        
+        
+					        <div class="prev-next">
+					        
+					          <div class="prev-button"><a class="ajax-link" href="218B.html">Previous work</a></div>
+					          <div class="next-button"><a class="ajax-link" href="Kuka.html">Next work</a></div>
+					
+					        </div>
+            </div>
+        
+    </div>
+
+
+
+  <!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
+  <!--Footer-->
+
+  <footer>
+
+    <div class="footer-margin">
+      <div class="social-footer">
+        <a href="https://www.linkedin.com/in/kenji-bowers-a2348338"><i class="fa fa-linkedin"></i></a>
+      
+      </div>     
+      <div class="copyright">© Copyright 2015 Thomsoon.com. All Rights Reserved.</div>
+      
+
+    
+    </div>
+
+
+  </footer>
+
+
+
+<!--Scripts-->
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+ 
+  <script src="js/script.js" type="text/javascript"></script>
+  
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>
